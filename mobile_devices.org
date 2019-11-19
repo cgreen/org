@@ -1,0 +1,25 @@
+* Phones
+** Craig's Moto X4
+https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b
+craig@Mynoghra:~$ fastboot oem get_unlock_data
+< waiting for any device >
+...
+(bootloader) Unlock data:
+(bootloader) 3A65840428753526#5A593232353546
+(bootloader) 4D5633006D6F746F2078340000#E5A3
+(bootloader) 536CD7BF129726929EB48F87644F4E6
+(bootloader) 4CEDA#FBC501C400000000000000000
+(bootloader) 0000000
+OKAY [  0.015s]
+finished. total time: 0.015s
+** Kayla's Moto X4
+craig@Mynoghra:~$ fastboot oem get_unlock_data
+...
+(bootloader) Unlock data:
+(bootloader) 3A65840438118922#5A59323235374D
+(bootloader) 4A3635006D6F746F2078340000#0016
+(bootloader) 96AF6D68BA29A0EF0FE0B8611B6C7FD
+(bootloader) A01EA#B35F04C900000000000000000
+(bootloader) 0000000
+OKAY [  0.016s]
+finished. total time: 0.016s

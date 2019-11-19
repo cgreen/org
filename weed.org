@@ -1,0 +1,41 @@
+* Stock
+** Dry herb
+| Strain            | Type   | Brand          | Purchase weight (grams) | Remaining (grams) | Purchased From | Purchase Price (USD) | Purchase Date    | Date used up | Notes                                         |
+|-------------------+--------+----------------+-------------------------+-------------------+----------------+----------------------+------------------+--------------+-----------------------------------------------|
+| Purple Punch      | Flower | Artizen        |                     3.5 |                   | Marley 420     |                   35 |                  |              | Frosty                                        |
+| Bermuda Haze      | Flower | cannabus       |                      28 |                28 | Marley 420     |                   45 |                  |              |                                               |
+| Blueberry Cookies | Flower | Herbs Herbz    |                      28 |                 0 | Marley 420     |                   25 | <2019-07-17 Wed> |              |                                               |
+| Blueberry Cookies | Flower | Herbs Herbz    |                      28 |                 0 | Marley 420     |                   25 | <2019-07-17 Wed> |              |                                               |
+| Blueberry Cookies | Flower | Herbs Herbz    |                      28 |                 2 | Marley 420     |                   25 | <2019-07-17 Wed> |              |                                               |
+| Blueberry Cookies | Flower | Herbs Herbz    |                      28 |                28 | Marley 420     |                   25 |                  |              |                                               |
+| Strawberry Cough  | Flower | Herbs Herbz    |                      28 |                28 | Marley 420     |                   25 |                  |              |                                               |
+| Dutch Treat       | Flower | Sasquatch      |                      28 |                 0 | Marley 420     |                  135 |                  |              |                                               |
+| PBB x SSS         | Flower | Cascade Crest  |                      28 |                28 | Marley 420     |                   85 |                  |              | Probably didn't pay sticker price             |
+| Green Crack       | Flower | OG Farms       |                      28 |                   | Marley 420     |                  150 |                  |              |                                               |
+| Super Lemon Haze  | Flower | CERES          |                       7 |                 7 |                |                      |                  |              |                                               |
+| Golden Goat       | Flower | Devils Lettuce |                    3.52 |              3.52 |                |                      |                  |              | Bought from a dispensary in Beaverton, Oregon |
+| Tangie            | Flower | GP Farms       |                    1.54 |              1.54 |                |                      |                  |              | Bought from a dispensary in Beaverton, Oregon |
+|-------------------+--------+----------------+-------------------------+-------------------+----------------+----------------------+------------------+--------------+-----------------------------------------------|
+|                   |        |                |                  264.06 |            126.06 |                |                  540 |                  |              |                                               |
+#+TBLFM: @15$4=vsum(@I..@II)::@15$5=vsum(@I..@II)::@15$7=vsum(@I..@II)
+** Concentrates
+| Strain                | Type       | Producer     | Purchase weight (grams) | Remaining (grams) | Purchased From | Purchase Price (USD) | Purchase Date | Date used up | Notes                             |
+|-----------------------+------------+--------------+-------------------------+-------------------+----------------+----------------------+---------------+--------------+-----------------------------------|
+| Green Crack           | Crumble    | THC Farms    |                       1 |                 1 | Marley 420     |                   15 |               |              | Probably didn't pay sticker price |
+| Green Crack           | Crumble    | THC Farms    |                       1 |                 1 | Marley 420     |                   12 |               |              |                                   |
+| Gummy Bear            | Crumble    | THC Farms    |                       1 |                 1 | Marley 420     |                   15 |               |              | Probably didn't pay sticker price |
+| Blueberry Kush        | Crumble    | THC Farms    |                       1 |                 1 | Marley 420     |                   12 |               |              |                                   |
+| Dirty Mack            | Terp sugar | Blue Roots   |                       1 |                 1 | Marley 420     |                   25 |               |              | Probably didn't pay sticker price |
+| Blackberry Kush       | CO2 oil    | INDO         |                       1 |                 1 | Marley 420     |                   35 |               |              |                                   |
+| 9lb Hammer            | Crumble    | Royal Oil    |                       1 |                 1 | Marley 420     |                   20 |               |              | Probably didn't pay sticker price |
+| Plushberry            | Sugar wax  | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Hindu Kush            | Crumble    | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Cherry Limeade        | Sugar wax  | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Cinderella's Dream    | Crumble    | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Illumidodi            | Sugar wax  | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Dirty Dream           | Sugar wax  | Smokey Point |                       1 |                 1 | Marley 420     |                   20 |               |              |                                   |
+| Double OG Sour Diesel | Shatter    | Dabstract    |                       1 |                 1 | 420 Carpenter  |                      |               |              | Nug run                           |
+|                       |            |              |                         |                   |                |                      |               |              |                                   |
+|-----------------------+------------+--------------+-------------------------+-------------------+----------------+----------------------+---------------+--------------+-----------------------------------|
+|                       |            |              |                      14 |                14 |                |                  254 |               |              |                                   |
+#+TBLFM: @17$4=vsum(@I..@II)::@17$5=vsum(@I..@II)::@17$7=vsum(@I..@II)

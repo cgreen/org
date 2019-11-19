@@ -1,0 +1,14 @@
+* Bridges
+<2019-10-15 Tue>
+
+obfs4 153.218.200.68:7054 011151C7FF284A93EE61123C9745F3FA7EB405AB cert=E7pXHvRGaOcM0A3NJMLRBOzFvHOBSMowSp6kOoZ5tYaiAbkz5CaBgCM/WGsK+qhXJvZQYw iat-mode=0
+obfs4 46.43.1.48:9101 B6461B4E15C02BB8578E5BEAD24D4187F086EC73 cert=hoGthy5+DAGrnL4Iaf67SBUozXf6MecVGEhhwFHNBKnhxal76lGVv2rn/E76/vaPAB3pAA iat-mode=0
+obfs4 216.105.171.57:443 BA4D99E7564CC74987E4C4F2B136E60E3D0B9872 cert=6ztij9CiUuSzSmHYo6IhjjA1DrvcUk8zmNAqD4KBjUqFdLFyeCrLDLYy0vZcUw7/dglicg iat-mode=0
+
+* Onions
+not evil: http://hss3uro2hsxfogfq.onion
+dark.fail: http://darkfailllnkf4vf.onion/
+dread: http://dreadditevelidot.onion
+duckduckgo: https://3g2upl4pq6kufc4m.onion
+hidden answers (?): http://answerszuvs3gg2l64e6hmnryudl5zgrmwm3vh65hzszdghblddvfiqd.onion
+

@@ -1,0 +1,29 @@
+* Develop a PIM system that accomplishes the following goals
+  :PROPERTIES:
+  :ID:       c7a7f9d6-2d0c-4db2-9c6b-0cedfbca297d
+  :END:
+
+- Organize all aspects of life: work, home, etc.
+- Recall relevant information by date or by topic.
+- Collect and review data on where I spend my time.
+- Facilitate performance reviews.
+
+* Use the block chain to track people's deeds/misdeeds
+Or simply create a personal record with as much data as possible and let those analyzing the data decide how to interpret it.
+
+* Create an AI system that can speed up (immigration) court cases by making preliminary judgements
+
+* Create an AI system that can find legal flaws / loopholes
+To either be exploited or sent to the legislature for correction.
+
+* Create a program to analyze the bitcoin blockchain and find the biggest wallets as well as the least and most active ones
+
+* Learn more about how bitcoin transactions are authenticated and how wallets are protected
+
+* Write a story about the ascension of a man to godhood
+Explore the idea of a man discovering the fundamental truth of the universe: that human minds shape reality on a quantum level, and how his psyche might grapple with the changes as his own mind is transformed.
+
+* In the future, companies will be run by software and anyone will be able to signup for work without an interview
+Compensation will only be given for work done and there will be no gaurantee of employment or of future benefits, so, there will be no need to vet applicants.
+
+* Develop a program that can read the news and make guesses about market reactions

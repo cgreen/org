@@ -1,0 +1,71 @@
+* Goals
+** TODO Work at SpaceX as an Embedded Systems Engineer
+*** TODO Become proficient at C programming
+Note: Goal needs to be more specific
+- Read 'The C Programming Language'
+- Take 'Introduction to Device Programming for IoT: C Edition' from edX [https://www.edx.org/course/introduction-to-device-programming-for-iot-c-edition-2]
+*** TODO Become proficient at ARM programming
+Note: Goal needs to be mroe specific
+- Read 'Exploring Beaglebone'
+- Retake 'Embedded Systems - Shape the World' (UTAustinX - UT.6.01x) course on edX []
+- Take 'Embedded Systems - Shape The World: Multi-Threaded Interfacing' (UTAustinX - UT.6.20x) course on edX []
+- Take 'GT - Embedded Systems' course on udacity [https://classroom.udacity.com/courses/ud169]
+**** TODO Learn to program STM32 microcontrollers
+Purchased a genuine ST Nucleo 144 board (H743ZI2) an ST-LINK mini clone an FTDI TTL to USB clone and several STM32 "blue pill" clones.
+***** DONE Setup an STM32 development environment on Mynoghra
+      CLOSED: [2019-09-05 Thu 02:20]
+Had trouble getting the STM software to work on Linux, but I finally got STM32CubeMx, STM32CubeProgrammer and True Studio working.
+The biggest pain was STM32CubeProgrammer.  To get that one working I had to:
+- install openjfx
+#+BEGIN_SRC sh
+sudo apt install openjfx
+#+END_SRC
+- make openJFXScript.csh look in the right place for openjfx
+#+BEGIN_SRC sh
+dpkg -S javafx.properties
+#+END_SRC
+- make STM32CubeProgrammer load openjfx
+#+BEGIN_SRC sh
+export JDK_JAVA_OPTIONS='--module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web'
+#+END_SRC
+
+For STM32CubeMx, I just had to create the file ~/.local/share/applications/stm32cubemx.desktop:
+[Desktop Entry]
+Name=STM32CubeMX
+GenericName=STM32CubeMX
+Comment=Graphical tool for configuration of STM32 Microcontrollers
+Exec=/media/appsandgames/engineering/embedded/STM32CubeMX/STM32CubeMX
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/media/appsandgames/engineering/embedded/STM32CubeMX/help/STM32CubeMX.ico
+StartupWMClass=STM32CubeMX
+StartupNotify=true
+***** DONE Take 'Mastering Microcontroller with Embedded Driver Development' course on udemy
+      CLOSED: [2019-09-08 Sun 15:28]
+https://www.udemy.com/course/mastering-microcontroller-with-peripheral-driver-development
+Had to install lib32ncurses5 to install System Workbench.
+#+BEGIN_SRC sh
+sudo apt install lib32ncurses5
+#+END_SRC
+Had to install OpenSTM32 System Workbench for the course.
+#+BEGIN_SRC sh
+wget -nc http://www.ac6-tools.com/downloads/SW4STM32/install_sw4stm32_linux_64bits-latest.run
+wget -nc http://www.ac6-tools.com/downloads/SW4STM32/install_sw4stm32_linux_64bits-latest.run.md5
+md5sum -c install_sw4stm32_linux_64bits-latest.run.md5
+chmod ug+x install_sw4stm32_linux_64bits-latest.run 
+#+END_SRC
+
+*** TODO Become proficient at Linux programming
+- Take 'Linux Basics: The Command Line Interface' on edX [https://courses.edx.org/courses/course-v1:Dartmouth_IMTx+DART.IMT.C.06+2T2018/course/]
+- Refresh Make skills by reading the GNU Make manual [https://www.gnu.org/software/make/manual/make.html]
+*** TODO Become proficient at Linux Kernel programming
+- Read 'The Linux Kernel Programming Guide'.  Though it may be quite out-of-date. [http://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html]
+- Write a Linux kernel module
+- Write a driver for the Garmin eTrex Legend handheld GPS.
+- Write a driver for the Spaceball "six-axis of freedom" controller
+- Submit a patch to the Linux kernel
+*** TODO Become proficient at interviewing
+- Read 'Cracking the Coding Interview'
+- Implement solutions for typical interview problems in C/C++
+- Practice answering interview questions on the whiteboard

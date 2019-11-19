@@ -1,0 +1,27 @@
+* Taxes
+** DONE 2017 tax return
+   CLOSED: [2019-03-11 Mon 16:02] SCHEDULED: <2018-09-01 Sat> DEADLINE: <2018-09-03 Mon>
+** DONE 2018 tax return
+   CLOSED: [2019-07-16 Tue 17:31] DEADLINE: <2019-04-13 Sat> SCHEDULED: <2019-03-12 Tue>
+* TODO Make a budget
+  DEADLINE: <2019-07-01 Mon> SCHEDULED: <2019-06-10 Mon>
+** Holiday & special occasions
+- $150 for each adult to spend on their Christmas shopping ($450 total)
+- $50 total for each birthday
+* TODO Sell some MSFT stock
+  DEADLINE: <2019-06-10 Mon> SCHEDULED: <2019-06-06 Thu>
+To reduce downside risk and to get some more money for expenses during unemployment.
+Currently trading @ 125.00.
+<2019-11-14 Thu> Put in a limit order to sell 200 shares @ $150/share.
+* TODO Develop a new revenue model for computer games
+Offer the games for free, but have it mine crypto for the developer in exchange.
+* TODO Get payout for unused parental leave from Microsoft
+Email benefits@microsoft.com about the six weeks of unused parental leave that they said I would be paid for.
+Emailed on 9/26/19.
+Called HR Assist on <2019-11-15 Fri> and was connected with Charlene Brown, who said she would instruct payroll to make the payout.
+* TODO Complete application for unemployment benefits
+Need started and end dates at MS.
+* TODO Cancel COBRA
+  DEADLINE: <2019-11-22 Fri> SCHEDULED: <2019-11-18 Mon>
+MS will stop paying premiums this month.
+

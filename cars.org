@@ -1,0 +1,140 @@
+* Craig's 2001 BMW 525i
+VIN: WBADT43421GF57323
+** Maintenance
+- Rear rotors & brake pads replaced
+- ABS module replaced
+<2018-09-01 Sat>
+- Oil change @219K
+Used 6qts of Mobil 1 Euro formula (0-w40).
+- Engine air filter change
+- Cabin air filters changed
+<2018-09-02 Sun>
+- Rear driver-side window regulator replaced
+<2018-09-12 Wed>
+- Read passenger-side turn signal bulb replaced
+*** DONE Replace O2 sensor
+    CLOSED: [2019-01-15 Tue 12:26] DEADLINE: <2018-09-16 Sun> SCHEDULED: <2018-09-15 Sat>
+*** DONE Replace valve cover gasket
+    CLOSED: [2019-01-15 Tue 12:25] DEADLINE: <2018-09-23 Sun> SCHEDULED: <2018-09-22 Sat>
+Replaced at 223142 miles on 1/4/2019.
+*** TODO Replace battery
+*** TODO Replace PCV
+*** TODO Replace front driver-side wheel bearing
+*** TODO Replace rear wheel bearings
+*** TODO Replace rear axles
+*** DONE Replace rear tires
+    CLOSED: [2019-01-15 Tue 12:26] DEADLINE: <2018-09-15 Sat> SCHEDULED: <2018-09-12 Wed>
+Comparison of Bridgestone Serenity+ 225/55/R16
+Replaced all four tires at Costco in December.
+
+| Business           |            Phone | Parts/tire          | Labor/tire | Alignment/wheel     | Date work can be done |
+|--------------------+------------------+---------------------+------------+---------------------+-----------------------|
+| Automotive Experts |     425-276-7271 | $156.99 (Tire Rack) | $20        | $121.98 (incl. tax) | After 8/27            |
+| Firestone Complete |     253-236-7107 | $156.99             | $24.13     | $79.99              |                       |
+| Costco             | 253-796-1004,5,4 | $156.99             | $15        | 10% off at FS       |                       |
+
+
+Firestone quotes:
+$394.66 for two tires installed
+181.12 + tax  for a single tire & installation
+Lifetime alignment ~ $190
+<2018-10-29 Mon>
+Price for two Bridgestone Serenity+ 225/55/R16 tires:
+$370.81 + tax = $403.98
+One time alignment is $89.99, but it's discounted to $79.99 with tire purchase.  This is the same discount the customers who buy tires from Costco get.
+Spoke to Tom and he said he was unaware of any specials on the lifetime alignment for $130.
+He said that there was a special last weekend for $149.99 and that's the lowest he's heard of in a long time.
+<2018-11-07 Wed>
+Four Bridgestone Serenity+ 225/55/R16 tires plus installation for $649.47, out the door.
+
+Costco quotes:
+<2018-11-07 Wed>
+Four Bridgestone Serenity+ 225/55/R16 tires plus installation for $556.05, out the door.
++ $15 to have the spare swapped.
+<2018-11-13 Tue>
+Talked to Joe.
+Four Bridgestone Serenity+ 225/55/R16 tires plus installation for $616.00, out the door.  Normally $764.00.
+
+*** TODO Alignment
+    SCHEDULED: <2019-03-15 Fri>
+
+*** DONE Change oil
+    CLOSED: [2019-07-14 Sun 10:38] SCHEDULED: <2019-03-05 Tue>
+Note: Done long before task was closed.
+Rock Creek Lube Center (425) 413-0165
+Oil change: $98.18
+Oil change w/ customer supplied oil & filter: $33
+
+*** TODO See if car needs to be brought in for safety recall
+Response from chat bot:
+My apologies but we will not able to schedule an appointment online with the dealership because they would like us to contact them directly. May I ask that you please call us at (844)314-2836 so that we may reach out to them for you?
+
+* Car shopping
+
+** Bad actors
+Cars of Tacoma sells junk cars and turned ugly when one of their cars broke down at the shop prior to an inspection.  The starter failed and the owner insisted that I needed to drive the vehicle back to the lot even though it wouldn't start.
+They also don't disclose that they're a dealership on Facebook Marketplace.  Instead, they list cars under a bunch of false aliases.
+Aliases
+- Kym Andrews
+- Kym Brooke
+
+** Private sellers
+
+*** Red 2003 Ford Expedition
+VIN: 1FMFU16L53LB95548
+Mileage: 184k
+Seller: Kris Johnson
+Location: Snohomish, WA
+Asking price: $3000
+Seller would like a cashier's check.
+
+Instrument Cluster Trouble Codes:
+• B1318: Battery voltage Low
+• B1352: Ignition key in circuit fault
+• U2013: The compass module is not responding.
+
+**** Inspection results
+- Needs air filter
+- Brakes are at 100%
+- Suspension is good
+- Two bulbs out in the third brake light.  May need to replace assembly.
+- Bulb out on license plate
+- No codes
+- Battery & alternator are good
+- Tires are good
+- Fluids look good and no flush needed
+- Belts and hoses look good
+- AC isn't working, may be the compressor
+- Minor oil leak.  Couldn't find origin.
+
+
+*** DONE Get title for Expedition
+    CLOSED: [2019-08-04 Sun 23:43]
+
+*** DONE Get Expedition registered
+    CLOSED: [2019-08-04 Sun 23:43]
+
+*** DONE See how much it would cost to add Expedition to insurance policy
+    CLOSED: [2019-08-06 Tue 16:45]
+Don't need comprehensive or collision, but would need to match liability and injury protection on BMW as they can't do different limits.
+Arica would be the primary driver.  Used for commuting.  20 miles each way.
+$701 / year
+Consider removing the collision & comprehensive coverage from the BMW to lower anual cost by about $360 / year.
+
+*** Purchases
+| Quantity | Item                               | Purchase Price (USD) | Purchase Date | Purchased From |
+|----------+------------------------------------+----------------------+---------------+----------------|
+|        2 | keyfobs                            |                 9.87 |               | Amazon         |
+|        1 | engine air filter                  |                      |               | Walmart        |
+|        6 | quart Mobile-1 5w-20 oil           |                      |               | Costco         |
+|        1 | Fram oil filter                    |                      |               | Walmart        |
+|        1 | passenger side door lock actuator  |                 9.73 |               | ebay           |
+|        1 | power mirror switch                |                34.64 |               | ebay           |
+|        1 | Aukey dash cam                     |                69.99 |               | Amazon         |
+|        1 | 64 GB micro SD card                |                17.99 |               | Amazon         |
+|        1 | Aukey motion-sensing hard-wire kit |                19.99 |               | Amazon         |
+|        1 | Aukey GPS                          |                19.99 |               | Amazon         |
+|        1 | Window switch (driver's side rear) |                 7.00 |               | Amazon         |
+|----------+------------------------------------+----------------------+---------------+----------------|
+|          |                                    |                189.2 |               |                |
+#+TBLFM: @13$3=vsum(@I..@II)
