@@ -141,5 +141,6 @@
 |                |            | 359.75 | 36.15 | 73.99 | 469.89 |                          |
 #+TBLFM: $6=vsum($3..$5)::@17$3=vsum(@I..@II)::@17$4=vsum(@I..@II)::@17$5=vsum(@I..@II)::@17$6=vsum(@I..@II)
 
-** TODO Add this file to personal github and merge changes from copy in Google Drive
+** DONE Add this file to personal github and merge changes from copy in Google Drive
+   CLOSED: [2019-11-19 Tue 19:10]
 
