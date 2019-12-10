@@ -11,7 +11,7 @@
 * TODO Sell some MSFT stock
   DEADLINE: <2019-06-10 Mon> SCHEDULED: <2019-06-06 Thu>
 To reduce downside risk and to get some more money for expenses during unemployment.
-Currently trading @ 125.00.
+Submitted an order to sell 100 shares @150.19 on 12/4/19.
 <2019-11-14 Thu> Put in a limit order to sell 200 shares @ $150/share.
 * TODO Develop a new revenue model for computer games
 Offer the games for free, but have it mine crypto for the developer in exchange.
@@ -21,7 +21,10 @@ Emailed on 9/26/19.
 Called HR Assist on <2019-11-15 Fri> and was connected with Charlene Brown, who said she would instruct payroll to make the payout.
 * TODO Complete application for unemployment benefits
 Need started and end dates at MS.
-* TODO Cancel COBRA
-  DEADLINE: <2019-11-22 Fri> SCHEDULED: <2019-11-18 Mon>
+* DONE Cancel COBRA
+  CLOSED: [2019-12-05 Thu 15:51] DEADLINE: <2019-11-22 Fri> SCHEDULED: <2019-11-18 Mon>
 MS will stop paying premiums this month.
+It will be cancelled on 1/5/2020, when the MS subsidy ends.
+* TODO Make Aric & Kayla beneficiaries of my SEP-IRA
+[[https://investor.vanguard.com/my-account/log-on][vanguard]]
 
