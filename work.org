@@ -1,0 +1,17 @@
+* Microsoft
+employee ID: 188881
+** DONE Call HR Assist to cancel COBRA and get official start & end dates
+   CLOSED: [2019-12-04 Wed 15:44]
+(877) 274-1148
+Start:
+End: 4/30/2019
+Contact business solver (833) 253-4929 to cancel COBRA
+IVR menu selections: 2,4,1
+Need to email benefits@microsoft.com
+The MS subsidy ends on 1/5/2020 and that's when the coverage will be cancelled.
+** DONE Call Charlene Brown about unused parental leave
+   CLOSED: [2019-12-02 Mon 15:23]
+425-707-7279
+She said that she will send a note to payroll and I should expect to be paid in the 11/30 pay cycle.
+*** TODO Find out why payment hasn't been received yet
+    SCHEDULED: <2019-12-13 Fri>
