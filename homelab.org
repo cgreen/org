@@ -1,180 +1,20 @@
 * Computers
-** TODO Build media server
-   SCHEDULED: <2019-03-14 Thu>
-*** DONE Order (DDR2 ECC) RAM for second CPU.
+** Cthulhu
+
+*** DONE Build Cthulhu as a file server and VM host
+    CLOSED: [2019-12-02 Mon 13:49] SCHEDULED: <2019-03-14 Thu>
+
+**** DONE Order (DDR2 ECC) RAM for second CPU.
     CLOSED: [2019-03-15 Fri 17:12]
 Choose distro: proxmos, freenas, etc.
 Choose file system: ZFS, mergefs, etc.
 Install drives.
-Replace 80mm fans with something quiter.  Can mod the fan wall to take larger fans.
-*** DONE Replace the power supplies with quieter ones.  SM sells quieter power supplies.
-    CLOSED: [2019-03-15 Fri 17:12]
-** TODO Figure out why external CD/DVD/BD drive is hanging
-Is it due to errors reading sectors on some discs?
-** TODO Get Oculus working in linux
-*** DONE Connect front HDMI port on case to HDMI port on GFX card.
-    CLOSED: [2019-03-15 Fri 17:13]
-*** DONE Connect second monitor to DisplayPort via adapter.
-    CLOSED: [2019-03-15 Fri 17:13]
-*** DONE Install libopenhmd0 package.
-    CLOSED: [2019-03-15 Fri 17:13]
-Make sure that /etc/X11/xorg.conf.d/99-HMD.conf is being loaded.
-** DONE Buy or build Dell PowerEdge R710 virtualization server from ebay
-   CLOSED: [2019-05-16 Thu 19:23]
-*** Purchases
-| Quantity | Item                                   | Price + S&H (USD) | Price per unit (USD) | Date Received    |
-|----------+----------------------------------------+-------------------+----------------------+------------------|
-|        1 | Barebones Dell R710                    |             92.31 |                92.31 | <2019-05-18 Sat> |
-|        6 | 2.5" HDD Tray / Caddy                  |             26.91 |                4.485 | <2019-05-18 Sat> |
-|        2 | Intel Xeon x5660 CPUs                  |             29.98 |                14.99 | <2019-05-17 Fri> |
-|        2 | Dell Savvio 600GB 10k.6 SAS HDD        |             39.98 |                19.99 | <2019-05-22 Wed> |
-|        1 | New Dell Perc H200 SAS/SATA Controller |             37.88 |                37.88 | <2019-05-17 Fri> |
-|        4 | HGST 900GB 10k SAS HDD                 |             86.88 |                21.72 |                  |
-|        8 | 16GB DDR3-1333 Reg ECC DIMM            |            272.59 |             34.07375 | <2019-05-18 Sat> |
-|----------+----------------------------------------+-------------------+----------------------+------------------|
-|          |                                        |            586.53 |                      |                  |
-#+TBLFM: $4=$3/$1::@9$3=vsum(@I..@II)
+Replace 80mm fans with something quieter.  Can mod the fan wall to take larger fans.
 
-***  Component prices
-| Item                          | Avg. Price (USD) |
-|-------------------------------+------------------|
-| iDrac 6 Express Enteprise Kit |               16 |
-| 3.5" HDD Tray / Caddy         |                7 |
-| 2.5" HDD Tray / Caddy         |                4 |
-| 8GB DDR3-1333 Reg ECC module  |               13 |
-| 16GB DDR3-1333 Reg ECC module |               31 |
-| Intel XEON X5660 SLBV6 (95W)  |               14 |
-| Dell VT6G4 870 Watt PSU       |               20 |
-| Dell Perc H200                |               32 |
-| 300GB 10k SAS HDD             |               15 |
-| 1000GB 10k SAS HDD            |               44 |
+**** DONE Replace the power supplies with quieter ones.  SM sells quieter power supplies.
+     CLOSED: [2019-03-15 Fri 17:12]
 
-*** Prebuilt prices
-| Title                                                                           | Price (USD) | S&H (USD) | Cost to Upgrade (USD) | Final Price (USD) | Form Factor | CPU              | Number of CPUs | CPU Cores | Total CPU Cores | Memory Module Size (GB) | Number of Memory Modules | Total Memory Capacity (GB) | HDD Type | HDD Size (GB) | Number of HDD | Total Disk Capacity (GB) | Disk Controller | Number of Missing Drive Caddies | iDrac Enterprise | Power Supply Wattage | Number of Power Supplies | Seller          | Link                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------------+-------------+-----------+-----------------------+-------------------+-------------+------------------+----------------+-----------+-----------------+-------------------------+--------------------------+----------------------------+----------+---------------+---------------+--------------------------+-----------------+---------------------------------+------------------+----------------------+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dell PowerEdge R710 Server - 2 L5520 Procs - Perc 6/i RAID - Dual Pwr - No Mem  |          85 |         0 |                   356 |               441 | SFF         | Intel Xeon L5520 |              2 |         4 |               8 |                         |                        0 |                          0 |          |               |             0 |                        0 | Perc 6/i        |                               8 | No               |                  870 |                        2 | arcassales      | https://www.ebay.com/itm/Dell-PowerEdge-R710-Server-2-L5520-Procs-Perc-6-i-RAID-Dual-Pwr-No-Mem/173868976631?hash=item287b6609f7:g:TDgAAOSwQ7lcYesQ#viTabs_0                                         |
-| Dell PowerEdge R710 Server - 2 L5520 Procs - Perc 6/i RAID - Dual Pwr - 8GB Mem |         100 |         0 |                   356 |               456 | SFF         | Intel Xeon L5520 |              2 |         4 |               8 |                       4 |                        2 |                          8 |          |               |             0 |                        0 | Perc 6/i        |                               8 | No               |                  870 |                        2 | arcassales      | https://www.ebay.com/itm/Dell-PowerEdge-R710-Server-2-L5520-Procs-Perc-6-i-RAID-Dual-Pwr-8GB-Mem/183769531146?hash=item2ac984830a:g:TDgAAOSwQ7lcYesQ#viTabs_0                                        |
-| Dell PowerEdge R710 3.5" Virtualization Server 2x 2.53GHz E5540 8GB iDRAC       |      140.95 |         0 |                   406 |            546.95 | LFF         | Intel Xeon E5540 |              2 |         4 |               8 |                       4 |                        2 |                          8 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                      |                        1 | savemyserver    | https://www.ebay.com/itm/Dell-PowerEdge-R710-3-5-Virtualization-Server-2x-2-53GHz-E5540-8GB-iDRAC/182859690340?hash=item2a93497164:g:IC0AAOSw-09Z801r#viTabs_0                                       |
-| Dell Poweredge R710 3.5″ 2x X5570 2.93ghz Quad Core / NoRam / Perc6i / 2x PSU   |       74.99 |     63.13 |                   366 |            504.12 | LFF         | Intel Xeon X5570 |              2 |         4 |               8 |                         |                        0 |                          0 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                  870 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-Poweredge-R710-3-5-2x-X5570-2-93ghz-Quad-Core-NoRam-Perc6i-2x-PSU/233212244460?hash=item364c8871ec:g:tRgAAOSwfVpYxEqx                                                  |
-| Dell PowerEdge R710 12-Core Server  24GB RAM  2x300GB SAS  iDRAC6  PERC6i       |      197.95 |         0 |                   320 |            517.95 | SFF         | Intel Xeon E5649 |              2 |         6 |              12 |                       4 |                        6 |                         24 | SAS      |           300 |             2 |                      600 | Perc 6/i        |                               6 | No               |                      |                        2 | savemyserver    | https://www.ebay.com/itm/Dell-PowerEdge-R710-12-Core-Server-24GB-RAM-2x300GB-SAS-iDRAC6-PERC6i/172918861656?hash=item2842c46f58:g:UdAAAOSwX4dbX1-u#viTabs_0                                          |
-| Dell Poweredge R710 Virtualization Server 2.66ghz 12 Cores 64gb 500gb 2xPSU     |      169.99 |     63.15 |                   364 |            597.14 | LFF         | Intel Xeon X5650 |              2 |         6 |              12 |                       4 |                       16 |                         64 | SATA     |           250 |             2 |                      500 | Perc 6/i        |                               4 | No               |                  570 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-Poweredge-R710-Virtualization-Server-2-66ghz-12-Cores-64gb-500gb-2xPSU/372661691913?hash=item56c45e2609:g:bHEAAOSwLztbUfi5                                             |
-| Dell PowerEdge R710 2x Intel Xeon E5620 2.4GHz 64GB DDR3 6x 3.5" HDD 2U Server  |      189.99 |     34.49 |                   406 |            630.48 | LFF         | Intel Xeon E5620 |              2 |         4 |               8 |                       4 |                       16 |                         64 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                      |                        2 | human-I-T       | https://www.ebay.com/itm/Dell-PowerEdge-R710-2x-Intel-Xeon-E5620-2-4GHz-64GB-DDR3-6x-3-5-HDD-2U-Server/312608483421?hash=item48c8eae85d:g:2PcAAOSwKHtc2e~i:sc:FedExHomeDelivery!98038!US!-1#viTabs_0 |
-| Dell Poweredge R710 2 X SIX CORE 2.93GHZ X5670 24GB 6 X 2TB 12TB H700 SERVER    |             |     69.99 |                   248 |            317.99 | LFF         | Intel Xeon X5670 |              2 |         6 |              12 |                       4 |                        6 |                         24 | SAS      |          2000 |             6 |                    12000 | H700            |                               0 | Yes              |                  870 |                        2 | surplusa2z      | https://www.ebay.com/itm/Dell-Poweredge-R710-2-X-SIX-CORE-2-93GHZ-X5670-24GB-6-X-2TB-12TB-H700-SERVER/133047296055?hash=item1efa3ca037:g:UPAAAOSw7bla13v2                                            |
-| Dell Google R710 SFF GB-7007 Gen II 12-Core 2.66GHz X5650 24GB H700 No 2.5" HDD |      239.99 |         0 |                   328 |            567.99 | SFF         | Intel Xeon x5650 |              2 |         6 |              12 |                       4 |                        6 |                         24 |          |               |             0 |                        0 | H700            |                               8 | No               |                  870 |                        2 | digitalmind2000 | https://www.ebay.com/itm/Dell-Google-R710-SFF-GB-7007-Gen-II-12-Core-2-66GHz-X5650-24GB-H700-No-2-5-HDD/382882549074?epid=1801409820&hash=item5925940d52:g:cSIAAOSwphhcpgne                          |
-| Dell PowerEdge R710 Virtualization Server 2.4ghz 12-Cores 48gb 4x 300gb Perc6i  |      164.99 |     63.13 |                   280 |            508.12 | SFF         | Intel Xeon E5645 |              2 |         6 |              12 |                       4 |                       12 |                         48 | SAS      |           300 |             4 |                     1200 | Perc 6/i        |                               0 | Yes              |                  870 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-PowerEdge-R710-Virtualization-Server-2-4ghz-12-Cores-48gb-4x-300gb-Perc6i/372627700342                                                                                 |
-|                                                                                 |             |           |                       |                 0 |             |                  |                |           |               0 |                         |                          |                          0 |          |               |               |                        0 |                 |                                 |                  |                      |                          |                 |                                                                                                                                                                                                      |
-#+TBLFM: $5=vsum($2..$4)::$10=$8 * $9::$13=$11 * $12::$17=$15 * $16
-
-** TODO Verify hash of opensuse ISO
-
-** Setup an NFS share on Mynoghra so that Nyarlathotep can access the OS ISOs
-This task may have been created before the storage server was renamed to Cthulhu, but the
-better plan is to copy the ISOs to the storage server.
-- Verify that nfs-kernel-server was installed on Mynoghra
-- Add directories to be shared to /etc/exports
-- Set appropriate permissions on shared files (644) and dirs (755).
-- Start securing NFS by restricting the hosts that can use the portmapper.  http://tldp.org/HOWTO/NFS-HOWTO/security.html
-- Set ports for necessary services and open firewall: https://wiki.debian.org/SecuringNFS
-- Add firewall rule to open port 37491 for showmount.
-*** TODO Copy the OS ISOs from Mynoghra to the storage server (Cthulhu)
-
-** Run a stress test on Nyarlathotep's VD (/dev/sda)
-Was this task created before the storage server was renamed to Cthulhu?
-If this test was truly about a VD (RAID) then it's no longer relevant as all three servers are using passhthrough HBAs now.
-
-** DONE Flash Dell PERC H200 adapter to IT mode (HBA)
-   CLOSED: [2019-06-02 Sun 14:27]
-Followed this guide, but had to install the card in another computer to get megarec to run as it would hang when run on the R710 under any combination of BIOS/UEFI boot and all FreeDOS boot options.
-https://www.ixsystems.com/community/resources/detailed-newcomers-guide-to-crossflashing-lsi-9211-9300-9311-hba-and-variants.54/
-Note: the guide says that flashing a boot option ROM to the card isn't necessary, but I had to do so in order to boot off of the attached drives.
-I was able to connect the mini SAS ports on the adapter to the backplanes using a 0.7m (SFF-8087) cable, but I wasn't able to route it through the guides built into the chassis as the adapter was installed on the 2nd riser as that's where the PCIe 8x connections are.
-Note: ProxMox was installed when the computer was booted in UEFI mode, but the computer is now in BIOS mode and the OS still boots.
-
-** TODO Switch zfs pool Nyarlathotep to use disk IDs
-   DEADLINE: <2019-06-06 Thu> SCHEDULED: <2019-06-02 Sun>
-rpool is likely using /dev/sdX identifiers currently.  This isn't stable and will cause problems with the pool if the enumeration of the drives changes.
-
-** DONE Install Docker and Portainer on Nyarlathotep
-   CLOSED: [2019-06-02 Sun 14:35]
-https://www.servethehome.com/creating-the-ultimate-virtualization-and-container-setup-with-management-guis/
-https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/
-
-** DONE Install new CPUs in Nyarlathotep
-   CLOSED: [2019-06-12 Wed 22:48] DEADLINE: <2019-06-06 Thu> SCHEDULED: <2019-06-02 Sun>
-
-** DONE Update purchases with returned drives and replacements
-   CLOSED: [2019-06-02 Sun 20:09]
-Returned the 4x 900GB drives, because one failed, and bought 4x 900GB drives from a different seller.
-
-** DONE Build an IBM X3650 M3 server for virtualization
-   CLOSED: [2019-06-02 Sun 20:09]
-Purchases
-| Quantity | Price + S&H (USD) | Price per unit (USD) | Description                     |
-|----------+-------------------+----------------------+---------------------------------|
-|        1 |            108.60 |                108.6 | IBM 7945-AC1 SFF X3650 M3       |
-|       16 |             43.44 |                2.715 | Hot swap drive trays            |
-|        6 |            195.41 |            32.568333 | IBM 900GB 10K 2.5 SAS HDD       |
-|        8 |             91.14 |              11.3925 | Samsung 8GB DDR3-1333 ECC RDIMM |
-|        2 |             57.90 |                28.95 | Crucial BX500 240GB SATA SSD    |
-|        1 |             21.99 |                21.99 | IBM ServeRaid M1015 SAS HBA     |
-|----------+-------------------+----------------------+---------------------------------|
-|          |            518.48 |                      |                                 |
-#+TBLFM: $3=$2/$1::@8$2=vsum(@I..@II)
-
-** DONE Reformat IBM drives with 512 byte sectors
-   CLOSED: [2019-06-05 Wed 13:12] DEADLINE: <2019-06-05 Wed> SCHEDULED: <2019-06-03 Mon>
-   CLOCK: [2019-06-03 Mon 23:35]--[2019-06-05 Wed 13:12] => 37:37
-The drives came formated with 528 byte sectors.
-https://forums.servethehome.com/index.php?threads/how-to-reformat-hdd-ssd-to-512b-sector-size.4968/
-ls /dev/sg[1-6] | xargs -l sg_format --six --format --size=512
-
-** DONE Flash ServeRaid M1015 HBA to IT mode and replace the M5015 HBA
-   CLOSED: [2019-06-12 Wed 22:55]
-
-** DONE Setup a container for mining Monero
-   CLOSED: [2019-06-03 Mon 23:34]
-Created 'moneropool' and 'minergate' containers.  Only the latter is currently working.
-Update: created minergate containes on all three servers: Cthulhu, Nyarlathotep and Ammetsuba.
-
-** TODO Download  GOG games library
-Some of it has already been downloaded on Mynoghra, but it needs to be moved to the storage server (Cthulhu).
-
-** TODO Download Humble Bundle library
-Books, comics and some software should be downloadable.
-
-** TODO Download online course material
-Coursera, EdX, etc.
-
-** DONE Install current nvidia driver
-   CLOSED: [2019-06-11 Tue 17:55]
-https://www.geforce.com/drivers/results/148435#
-Had to uninstall cuda first: sudo apt-get remove cuda
-Version 430 installed, but it's not compatible with the latest cuda package which contains version 418.
-
-** TODO Setup Mynoghra for GPU mining
-https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu-installation
-https://github.com/NVIDIA/nvidia-docker
-Need to reinstall cuda.  Will likely have to settle for a driver downgrade (430->418).
-- Installed cuda-10.1
-- Installed nvidia-docker2
-- Compiled cuda samples and ran deviceQuery & bandwidthTest - both passed.
-- Running nvidia-docker (sudo nvidia-docker run -d -e username=cagreen74@hotmail.com -e donate=1 servethehome/monero_gpu_nv_minergate)
-fails with the following error: GPU #0: FATAL: failed to allocate device memory for long state
-
-** DONE Install ccminer on Mynoghra
-   CLOSED: [2019-06-11 Tue 16:55]
-https://steemit.com/cryptocurrency/@virtualcoin/mining-monero-using-a-nvidia-gtx-gpu-for-linux
-
-** DONE Install servethehome/monero_gpu_nv_minergate miner on Mynoghra
-   CLOSED: [2019-06-11 Tue 17:10]
-https://forums.servethehome.com/index.php?threads/monero-gpu-mining-in-docker-with-nvidia-docker.12955/
-
-** DONE Figure out network issues with Ammutseba
-   CLOSED: [2019-06-16 Sun 10:40]
-The vm bridge (vmbr0) was using the management interface as the bridge port.
-Edited /etc/network/interfaces and changed the bridge port to eno1 and restarted the networking service.
-
-** DONE Make sure the WD White label drives are being recognized by the storage server
+*** DONE Make sure the WD White label drives are being recognized by the storage server
    CLOSED: [2019-06-19 Wed 13:02]
 Check Cthulhu to make sure they're showing up - currently only one has been added.  If not, the pin 3 mod may have to be performed.
 
@@ -198,10 +38,7 @@ Local Time is:    Wed Jun 19 12:42:32 2019 PDT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
-** TODO Add the four new drives in Nyarlathotep to a storage pool
-Currently they are unused as the intention was to get a couple more drives and create a raidz2 vdev.
-
-** DONE Shuck external drives and add them to the storage server (Cthulhu)
+*** DONE Shuck external drives and add them to the storage server (Cthulhu)
    CLOSED: [2019-06-19 Wed 20:48]
 Two 10TB and one 8TB WD EasyStore drives remaining.
 
@@ -209,30 +46,241 @@ Two 10TB and one 8TB WD EasyStore drives remaining.
 2. Remove all paritions and change label to GPT.
 3. Shuck drive
 
-** DONE Create a zpool from the four new 8TB drives in Cthulhu
+*** DONE Create a zpool from the four new 8TB drives in Cthulhu
    CLOSED: [2019-06-19 Wed 15:52]
 zpool create -O compression=on dead raidz2 wwn-0x5000c500a544657c wwn-0x5000c500a5449665 wwn-0x5000cca252cd6d9d wwn-0x5000cca252cd4788
 
-
-** TODO Figure out why the storage server is hanging with the WD white label drives installed
+*** TODO Figure out why the storage server is hanging with the WD white label drives installed
 The SATA controller seems to have an issue with the drives.  This may be a problem with the AOC-SAT2-MV8 HBAs (MV88SX6081).
 
-*** DONE Update the AOC-SAT2-MV8 cards with the latest firmware
+**** DONE Update the AOC-SAT2-MV8 cards with the latest firmware
     CLOSED: [2019-06-23 Sun 11:17]
 Trying to download new firmware for the AOC-SAT2-MV8 from Supermicro, but the link to the flash utility is broken.
 link: https://www.supermicro.com/wftp/Firmware/AOC-SAT2-MV8/mvFlshUp.com
 redirects to: https://www.supermicro.com/index_home.cfm
 Was able to download the file from: ftp://ftp.supermicro.com/Firmware/AOC-SAT2-MV8/
 
-*** TODO Contact Supermicro about the broken link
+***** TODO Contact Supermicro about the broken link
 Support@supermicro.com
 
-** TODO Update Nyarlathotep's firmware
+*** TODO Download  GOG games library
+Some of it has already been downloaded on Mynoghra, but it needs to be moved to the storage server (Cthulhu).
+
+*** TODO Download Humble Bundle library
+Books, comics and some software should be downloadable.
+
+*** TODO Download online course material
+Coursera, EdX, etc.
+
+
+
+** Mynoghra
+
+*** TODO Figure out why external CD/DVD/BD drive is hanging
+Is it due to errors reading sectors on some discs?
+The ASMEDIA chip inside the Nexstar DX USB enclosure is said to have problems with UAS.  I disabled UAS for this device in /etc/modprobe.d/blacklist_uas.conf but it made no difference.
+
+*** TODO Get Oculus working in linux
+
+**** DONE Connect front HDMI port on case to HDMI port on GFX card.
+     CLOSED: [2019-03-15 Fri 17:13]
+
+**** DONE Connect second monitor to DisplayPort via adapter.
+     CLOSED: [2019-03-15 Fri 17:13]
+
+**** DONE Install libopenhmd0 package.
+    CLOSED: [2019-03-15 Fri 17:13]
+Make sure that /etc/X11/xorg.conf.d/99-HMD.conf is being loaded.
+
+*** Setup an NFS share on Mynoghra so that Nyarlathotep can access the OS ISOs
+This task may have been created before the storage server was renamed to Cthulhu, but the
+better plan is to copy the ISOs to the storage server.
+- Verify that nfs-kernel-server was installed on Mynoghra
+- Add directories to be shared to /etc/exports
+- Set appropriate permissions on shared files (644) and dirs (755).
+- Start securing NFS by restricting the hosts that can use the portmapper.  http://tldp.org/HOWTO/NFS-HOWTO/security.html
+- Set ports for necessary services and open firewall: https://wiki.debian.org/SecuringNFS
+- Add firewall rule to open port 37491 for showmount.
+
+**** DONE Copy the OS ISOs from Mynoghra to the storage server (Cthulhu)
+     CLOSED: [2019-12-02 Mon 13:33]
+
+*** DONE Install current nvidia driver
+   CLOSED: [2019-06-11 Tue 17:55]
+https://www.geforce.com/drivers/results/148435#
+Had to uninstall cuda first: sudo apt-get remove cuda
+Version 430 installed, but it's not compatible with the latest cuda package which contains version 418.
+
+*** TODO Setup Mynoghra for GPU mining
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu-installation
+https://github.com/NVIDIA/nvidia-docker
+Need to reinstall cuda.  Will likely have to settle for a driver downgrade (430->418).
+- Installed cuda-10.1
+- Installed nvidia-docker2
+- Compiled cuda samples and ran deviceQuery & bandwidthTest - both passed.
+- Running nvidia-docker (sudo nvidia-docker run -d -e username=cagreen74@hotmail.com -e donate=1 servethehome/monero_gpu_nv_minergate)
+fails with the following error: GPU #0: FATAL: failed to allocate device memory for long state
+
+*** DONE Install ccminer on Mynoghra
+   CLOSED: [2019-06-11 Tue 16:55]
+https://steemit.com/cryptocurrency/@virtualcoin/mining-monero-using-a-nvidia-gtx-gpu-for-linux
+
+*** DONE Install servethehome/monero_gpu_nv_minergate miner on Mynoghra
+   CLOSED: [2019-06-11 Tue 17:10]
+https://forums.servethehome.com/index.php?threads/monero-gpu-mining-in-docker-with-nvidia-docker.12955/
+
+*** DONE Get QEMU / virt-manager working on Mynoghra
+   CLOSED: [2019-07-08 Mon 11:48]
+virt-manager was already installed, but I couldn't view the VM desktop due to a spice error.
+Had to install gir1.2-spiceclientgtk-3.0 to get it working.  I also installed spice-client-gtk, but I don't know if it was needed.
+Note: these dependencies might be handle by installing "recommended" packages when installing virt-manager.
+The virtual network (default) is refusing to start because it "failed to initialize a valid firewall backend."
+According to a reply on https://superuser.com/questions/1063240/libvirt-failed-to-initialize-a-valid-firewall-backend, ebtables and dnsmasq need to be started.
+Installed ebtables and dnsmasq, but it didn't help.
+Restarted libvirtd: sudo systemctl restart libvirtd.service
+Updated libvirt package.
+Virtual network is now active.
+Had to switch VM net device back to virtual network.
+
+*** DONE Install kdenlive for video editing on Mynoghra
+   CLOSED: [2019-08-23 Fri 23:34]
+Installed via flatpak, since the latest version isn't compatible with the QT in ubuntu 18.04 based distros
+
+*** DONE Make scanning documents from Brother DCP-L2540DW to Mynoghra work
+   CLOSED: [2019-09-07 Sat 02:20]
+Had to correct IP address in /etc/opt/brother/scanner/brscan4/brsanenetdevice4.cfg and reboot.
+Most helpful page: https://wiki.archlinux.org/index.php/SANE/Scanner-specific_problems
+
+
+
+** Nyarlathotep
+
+*** DONE Buy or build Dell PowerEdge R710 virtualization server from ebay
+    CLOSED: [2019-05-16 Thu 19:23]
+
+**** Purchases
+| Quantity | Item                                   | Price + S&H (USD) | Price per unit (USD) | Date Received    |
+|----------+----------------------------------------+-------------------+----------------------+------------------|
+|        1 | Barebones Dell R710                    |             92.31 |                92.31 | <2019-05-18 Sat> |
+|        6 | 2.5" HDD Tray / Caddy                  |             26.91 |                4.485 | <2019-05-18 Sat> |
+|        2 | Intel Xeon x5660 CPUs                  |             29.98 |                14.99 | <2019-05-17 Fri> |
+|        2 | Dell Savvio 600GB 10k.6 SAS HDD        |             39.98 |                19.99 | <2019-05-22 Wed> |
+|        1 | New Dell Perc H200 SAS/SATA Controller |             37.88 |                37.88 | <2019-05-17 Fri> |
+|        4 | HGST 900GB 10k SAS HDD                 |             86.88 |                21.72 |                  |
+|        8 | 16GB DDR3-1333 Reg ECC DIMM            |            272.59 |             34.07375 | <2019-05-18 Sat> |
+|----------+----------------------------------------+-------------------+----------------------+------------------|
+|          |                                        |            586.53 |                      |                  |
+#+TBLFM: $4=$3/$1::@9$3=vsum(@I..@II)
+
+****  Component prices
+| Item                          | Avg. Price (USD) |
+|-------------------------------+------------------|
+| iDrac 6 Express Enteprise Kit |               16 |
+| 3.5" HDD Tray / Caddy         |                7 |
+| 2.5" HDD Tray / Caddy         |                4 |
+| 8GB DDR3-1333 Reg ECC module  |               13 |
+| 16GB DDR3-1333 Reg ECC module |               31 |
+| Intel XEON X5660 SLBV6 (95W)  |               14 |
+| Dell VT6G4 870 Watt PSU       |               20 |
+| Dell Perc H200                |               32 |
+| 300GB 10k SAS HDD             |               15 |
+| 1000GB 10k SAS HDD            |               44 |
+
+**** Prebuilt prices
+| Title                                                                           | Price (USD) | S&H (USD) | Cost to Upgrade (USD) | Final Price (USD) | Form Factor | CPU              | Number of CPUs | CPU Cores | Total CPU Cores | Memory Module Size (GB) | Number of Memory Modules | Total Memory Capacity (GB) | HDD Type | HDD Size (GB) | Number of HDD | Total Disk Capacity (GB) | Disk Controller | Number of Missing Drive Caddies | iDrac Enterprise | Power Supply Wattage | Number of Power Supplies | Seller          | Link                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------+-------------+-----------+-----------------------+-------------------+-------------+------------------+----------------+-----------+-----------------+-------------------------+--------------------------+----------------------------+----------+---------------+---------------+--------------------------+-----------------+---------------------------------+------------------+----------------------+--------------------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dell PowerEdge R710 Server - 2 L5520 Procs - Perc 6/i RAID - Dual Pwr - No Mem  |          85 |         0 |                   356 |               441 | SFF         | Intel Xeon L5520 |              2 |         4 |               8 |                         |                        0 |                          0 |          |               |             0 |                        0 | Perc 6/i        |                               8 | No               |                  870 |                        2 | arcassales      | https://www.ebay.com/itm/Dell-PowerEdge-R710-Server-2-L5520-Procs-Perc-6-i-RAID-Dual-Pwr-No-Mem/173868976631?hash=item287b6609f7:g:TDgAAOSwQ7lcYesQ#viTabs_0                                         |
+| Dell PowerEdge R710 Server - 2 L5520 Procs - Perc 6/i RAID - Dual Pwr - 8GB Mem |         100 |         0 |                   356 |               456 | SFF         | Intel Xeon L5520 |              2 |         4 |               8 |                       4 |                        2 |                          8 |          |               |             0 |                        0 | Perc 6/i        |                               8 | No               |                  870 |                        2 | arcassales      | https://www.ebay.com/itm/Dell-PowerEdge-R710-Server-2-L5520-Procs-Perc-6-i-RAID-Dual-Pwr-8GB-Mem/183769531146?hash=item2ac984830a:g:TDgAAOSwQ7lcYesQ#viTabs_0                                        |
+| Dell PowerEdge R710 3.5" Virtualization Server 2x 2.53GHz E5540 8GB iDRAC       |      140.95 |         0 |                   406 |            546.95 | LFF         | Intel Xeon E5540 |              2 |         4 |               8 |                       4 |                        2 |                          8 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                      |                        1 | savemyserver    | https://www.ebay.com/itm/Dell-PowerEdge-R710-3-5-Virtualization-Server-2x-2-53GHz-E5540-8GB-iDRAC/182859690340?hash=item2a93497164:g:IC0AAOSw-09Z801r#viTabs_0                                       |
+| Dell Poweredge R710 3.5″ 2x X5570 2.93ghz Quad Core / NoRam / Perc6i / 2x PSU   |       74.99 |     63.13 |                   366 |            504.12 | LFF         | Intel Xeon X5570 |              2 |         4 |               8 |                         |                        0 |                          0 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                  870 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-Poweredge-R710-3-5-2x-X5570-2-93ghz-Quad-Core-NoRam-Perc6i-2x-PSU/233212244460?hash=item364c8871ec:g:tRgAAOSwfVpYxEqx                                                  |
+| Dell PowerEdge R710 12-Core Server  24GB RAM  2x300GB SAS  iDRAC6  PERC6i       |      197.95 |         0 |                   320 |            517.95 | SFF         | Intel Xeon E5649 |              2 |         6 |              12 |                       4 |                        6 |                         24 | SAS      |           300 |             2 |                      600 | Perc 6/i        |                               6 | No               |                      |                        2 | savemyserver    | https://www.ebay.com/itm/Dell-PowerEdge-R710-12-Core-Server-24GB-RAM-2x300GB-SAS-iDRAC6-PERC6i/172918861656?hash=item2842c46f58:g:UdAAAOSwX4dbX1-u#viTabs_0                                          |
+| Dell Poweredge R710 Virtualization Server 2.66ghz 12 Cores 64gb 500gb 2xPSU     |      169.99 |     63.15 |                   364 |            597.14 | LFF         | Intel Xeon X5650 |              2 |         6 |              12 |                       4 |                       16 |                         64 | SATA     |           250 |             2 |                      500 | Perc 6/i        |                               4 | No               |                  570 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-Poweredge-R710-Virtualization-Server-2-66ghz-12-Cores-64gb-500gb-2xPSU/372661691913?hash=item56c45e2609:g:bHEAAOSwLztbUfi5                                             |
+| Dell PowerEdge R710 2x Intel Xeon E5620 2.4GHz 64GB DDR3 6x 3.5" HDD 2U Server  |      189.99 |     34.49 |                   406 |            630.48 | LFF         | Intel Xeon E5620 |              2 |         4 |               8 |                       4 |                       16 |                         64 |          |               |             0 |                        0 | Perc 6/i        |                               6 | No               |                      |                        2 | human-I-T       | https://www.ebay.com/itm/Dell-PowerEdge-R710-2x-Intel-Xeon-E5620-2-4GHz-64GB-DDR3-6x-3-5-HDD-2U-Server/312608483421?hash=item48c8eae85d:g:2PcAAOSwKHtc2e~i:sc:FedExHomeDelivery!98038!US!-1#viTabs_0 |
+| Dell Poweredge R710 2 X SIX CORE 2.93GHZ X5670 24GB 6 X 2TB 12TB H700 SERVER    |             |     69.99 |                   248 |            317.99 | LFF         | Intel Xeon X5670 |              2 |         6 |              12 |                       4 |                        6 |                         24 | SAS      |          2000 |             6 |                    12000 | H700            |                               0 | Yes              |                  870 |                        2 | surplusa2z      | https://www.ebay.com/itm/Dell-Poweredge-R710-2-X-SIX-CORE-2-93GHZ-X5670-24GB-6-X-2TB-12TB-H700-SERVER/133047296055?hash=item1efa3ca037:g:UPAAAOSw7bla13v2                                            |
+| Dell Google R710 SFF GB-7007 Gen II 12-Core 2.66GHz X5650 24GB H700 No 2.5" HDD |      239.99 |         0 |                   328 |            567.99 | SFF         | Intel Xeon x5650 |              2 |         6 |              12 |                       4 |                        6 |                         24 |          |               |             0 |                        0 | H700            |                               8 | No               |                  870 |                        2 | digitalmind2000 | https://www.ebay.com/itm/Dell-Google-R710-SFF-GB-7007-Gen-II-12-Core-2-66GHz-X5650-24GB-H700-No-2-5-HDD/382882549074?epid=1801409820&hash=item5925940d52:g:cSIAAOSwphhcpgne                          |
+| Dell PowerEdge R710 Virtualization Server 2.4ghz 12-Cores 48gb 4x 300gb Perc6i  |      164.99 |     63.13 |                   280 |            508.12 | SFF         | Intel Xeon E5645 |              2 |         6 |              12 |                       4 |                       12 |                         48 | SAS      |           300 |             4 |                     1200 | Perc 6/i        |                               0 | Yes              |                  870 |                        2 | garlandcomputer | https://www.ebay.com/itm/Dell-PowerEdge-R710-Virtualization-Server-2-4ghz-12-Cores-48gb-4x-300gb-Perc6i/372627700342                                                                                 |
+|                                                                                 |             |           |                       |                 0 |             |                  |                |           |               0 |                         |                          |                          0 |          |               |               |                        0 |                 |                                 |                  |                      |                          |                 |                                                                                                                                                                                                      |
+#+TBLFM: $5=vsum($2..$4)::$10=$8 * $9::$13=$11 * $12::$17=$15 * $16
+
+*** DONE Update purchases with returned drives and replacements
+   CLOSED: [2019-06-02 Sun 20:09]
+Returned the 4x 900GB drives, because one failed, and bought 4x 900GB drives from a different seller.
+
+*** Run a stress test on Nyarlathotep's VD (/dev/sda)
+Was this task created before the storage server was renamed to Cthulhu?
+If this test was truly about a VD (RAID) then it's no longer relevant as all three servers are using passhthrough HBAs now.
+
+*** DONE Flash Dell PERC H200 adapter to IT mode (HBA)
+   CLOSED: [2019-06-02 Sun 14:27]
+Followed this guide, but had to install the card in another computer to get megarec to run as it would hang when run on the R710 under any combination of BIOS/UEFI boot and all FreeDOS boot options.
+https://www.ixsystems.com/community/resources/detailed-newcomers-guide-to-crossflashing-lsi-9211-9300-9311-hba-and-variants.54/
+Note: the guide says that flashing a boot option ROM to the card isn't necessary, but I had to do so in order to boot off of the attached drives.
+I was able to connect the mini SAS ports on the adapter to the backplanes using a 0.7m (SFF-8087) cable, but I wasn't able to route it through the guides built into the chassis as the adapter was installed on the 2nd riser as that's where the PCIe 8x connections are.
+Note: ProxMox was installed when the computer was booted in UEFI mode, but the computer is now in BIOS mode and the OS still boots.
+
+*** TODO Switch zfs pool Nyarlathotep to use disk IDs
+   DEADLINE: <2019-06-06 Thu> SCHEDULED: <2019-06-02 Sun>
+rpool is likely using /dev/sdX identifiers currently.  This isn't stable and will cause problems with the pool if the enumeration of the drives changes.
+
+*** DONE Install Docker and Portainer on Nyarlathotep
+   CLOSED: [2019-06-02 Sun 14:35]
+https://www.servethehome.com/creating-the-ultimate-virtualization-and-container-setup-with-management-guis/
+https://www.servethehome.com/setup-docker-on-proxmox-ve-using-zfs-storage/
+
+*** DONE Install new CPUs in Nyarlathotep
+    CLOSED: [2019-06-12 Wed 22:48] DEADLINE: <2019-06-06 Thu> SCHEDULED: <2019-06-02 Sun>
+
+*** TODO Add the four new drives in Nyarlathotep to a storage pool
+Currently they are unused as the intention was to get a couple more drives and create a raidz2 vdev.
+Alternatively, a raid10 vdev could be made from the existing four drives.
+
+*** TODO Update Nyarlathotep's firmware
 https://www.reddit.com/r/homelab/wiki/hardware/dellr710#wiki_software
 ISO downloaded to: /media/appsandgames/images/iso/dell/r710/
 ISO written to one of the "easystore 32GB" - SanDisk Cruzer Glide - USB sticks.
 
-** TODO Build an R720 server for virtualization
+
+
+** Ammutseba
+*** DONE Build an IBM X3650 M3 server for virtualization
+   CLOSED: [2019-06-02 Sun 20:09]
+Purchases
+| Quantity | Price + S&H (USD) | Price per unit (USD) | Description                     |
+|----------+-------------------+----------------------+---------------------------------|
+|        1 |            108.60 |                108.6 | IBM 7945-AC1 SFF X3650 M3       |
+|       16 |             43.44 |                2.715 | Hot swap drive trays            |
+|        6 |            195.41 |            32.568333 | IBM 900GB 10K 2.5 SAS HDD       |
+|        8 |             91.14 |              11.3925 | Samsung 8GB DDR3-1333 ECC RDIMM |
+|        2 |             57.90 |                28.95 | Crucial BX500 240GB SATA SSD    |
+|        1 |             21.99 |                21.99 | IBM ServeRaid M1015 SAS HBA     |
+|----------+-------------------+----------------------+---------------------------------|
+|          |            518.48 |                      |                                 |
+#+TBLFM: $3=$2/$1::@8$2=vsum(@I..@II)
+
+*** DONE Reformat IBM drives with 512 byte sectors
+   CLOSED: [2019-06-05 Wed 13:12] DEADLINE: <2019-06-05 Wed> SCHEDULED: <2019-06-03 Mon>
+   CLOCK: [2019-06-03 Mon 23:35]--[2019-06-05 Wed 13:12] => 37:37
+The drives came formated with 528 byte sectors.
+https://forums.servethehome.com/index.php?threads/how-to-reformat-hdd-ssd-to-512b-sector-size.4968/
+ls /dev/sg[1-6] | xargs -l sg_format --six --format --size=512
+
+*** DONE Flash ServeRaid M1015 HBA to IT mode and replace the M5015 HBA
+    CLOSED: [2019-06-12 Wed 22:55]
+
+*** DONE Setup a container for mining Monero
+   CLOSED: [2019-06-03 Mon 23:34]
+Created 'moneropool' and 'minergate' containers.  Only the latter is currently working.
+Update: created minergate containes on all three servers: Cthulhu, Nyarlathotep and Ammetsuba.
+
+*** DONE Figure out network issues with Ammutseba
+   CLOSED: [2019-06-16 Sun 10:40]
+The vm bridge (vmbr0) was using the management interface as the bridge port.
+Edited /etc/network/interfaces and changed the bridge port to eno1 and restarted the networking service.
+
+
+
+** Cthugha
+*** TODO Build an R720 server for virtualization
 Need another system with AES-NI to run pfsense.
 Purchases
 | Quantity | Price + S&H (USD) | Price per unit (USD) | Description                                                            |
@@ -256,10 +304,19 @@ Updating the iDRAC & Lifecycle Controller would allow the rest of the updates to
 
 *** TODO Replace hardware RAID with ZFS on Cthugha
 
-**** DONE Flash IBM ServeRaid M1015 card to IT mode and install it in Cthugha
-     CLOSED: [2019-07-19 Fri 19:41]
+*** DONE Flash IBM ServeRaid M1015 card to IT mode and install it in Cthugha
+    CLOSED: [2019-07-19 Fri 19:41]
 
 
+
+** 
+*** DONE Install OpenShot on Kayla's laptop
+   CLOSED: [2019-08-24 Sat 20:42]
+It is supposed to have less of a learning curve than kdenlive.
+
+
+
+* Devices
 ** DONE Shuck WD My Cloud Home device
    CLOSED: [2019-07-16 Tue 17:34]
 Found a 6TB WD Red drive inside with multiple partitions containing protected files.
@@ -276,7 +333,8 @@ Flashing older, 2GB, images has failed as well.  It looks like this version is c
    CLOSED: [2019-08-20 Tue 15:15]
 Succesfullly flashed 2GB Angstrom image: /media/appsandgames/images/beaglebone/official/angstrom/BBB-eMMC-flasher-2013.09.04.img.
 
-** TODO Get screen attached to BBB serial console (/dev/ttyUSB0) as a normal user
+** DONE Get screen attached to BBB serial console (/dev/ttyUSB0) as a normal user
+   CLOSED: [2019-12-04 Wed 16:15]
 Screen attaches when run with sudo, but terminates when run without.
 #+BEGIN_SRC bash
 screen /dev/ttyUSB0 115200
@@ -302,31 +360,10 @@ ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
 sudo usermod -a -G shadow craig
 #+END_SRC
 
-** DONE Get QEMU / virt-manager working on Mynoghra
-   CLOSED: [2019-07-08 Mon 11:48]
-virt-manager was already installed, but I couldn't view the VM desktop due to a spice error.
-Had to install gir1.2-spiceclientgtk-3.0 to get it working.  I also installed spice-client-gtk, but I don't know if it was needed.
-Note: these dependencies might be handle by installing "recommended" packages when installing virt-manager.
-The virtual network (default) is refusing to start because it "failed to initialize a valid firewall backend."
-According to a reply on https://superuser.com/questions/1063240/libvirt-failed-to-initialize-a-valid-firewall-backend, ebtables and dnsmasq need to be started.
-Installed ebtables and dnsmasq, but it didn't help.
-Restarted libvirtd: sudo systemctl restart libvirtd.service
-Updated libvirt package.
-Virtual network is now active.
-Had to switch VM net device back to virtual network.
+Seems to be working now with no further changes.  Perhaps it was fixed with an update.
 
 ** TODO Build a media center PC using the Silverstone HTPC case in the garage (overhead storage)
 Consider building an AMD Ryzen 3xxx system to mine crypto when not in use.
 
-** DONE Install kdenlive for video editing on Mynoghra
-   CLOSED: [2019-08-23 Fri 23:34]
-Installed via flatpak, since the latest version isn't compatible with the QT in ubuntu 18.04 based distros
+** TODO Verify hash of opensuse ISO
 
-** DONE Install OpenShot on Kayla's laptop
-   CLOSED: [2019-08-24 Sat 20:42]
-It is supposed to have less of a learning curve than kdenlive.
-
-** DONE Make scanning documents from Brother DCP-L2540DW to Mynoghra work
-   CLOSED: [2019-09-07 Sat 02:20]
-Had to correct IP address in /etc/opt/brother/scanner/brscan4/brsanenetdevice4.cfg and reboot.
-Most helpful page: https://wiki.archlinux.org/index.php/SANE/Scanner-specific_problems
